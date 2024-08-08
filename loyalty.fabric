@@ -1,0 +1,26 @@
+[
+    {
+        "invoke" : "registerCustomer",
+        "args" : ["customer1", "store1", "100"]
+    },
+    {
+        "query" : "checkPoints",
+        "args" : ["customer1"]
+    },
+    {
+        "invoke" : "earnPoints",
+        "args" : ["customer1", "30"]
+    },
+    {
+        "invoke" : "spendPoints",
+        "args" : ["customer1", "20"]
+    },
+    {
+        "invoke": "desactiveCustomer",
+        "args": ["customer1"]
+    },
+    {
+        "invoke": "activeCustomer",
+        "args": ["customer1"]
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Chaincode Loyalty",
+            "type": "hlf-node",
+            "request": "launch",
+            "isCaas": false
+        }
+    ]
+}
